@@ -98,7 +98,7 @@ function App() {
             </li>
             <li>
               <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
+                <svg 
                   className="button-icon"
                   role="presentation"
                   aria-hidden="true"
