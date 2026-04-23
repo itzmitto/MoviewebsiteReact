@@ -1,0 +1,41 @@
+.layout {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #111;
+  color: white;
+  padding: 20px;
+  border-radius: 1rem;
+}
+
+.sidebar .logo {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  color: #e50914;
+}
+
+.main-page {
+  flex: 1;
+  padding: 20px;
+  background-color: rgb(25, 25, 25);
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+}
