@@ -19,7 +19,7 @@
 .sidebar ul {
   list-style: none;
   padding: 0;
-} 
+}
 
 .sidebar li {
   margin: 10px 0;
@@ -28,6 +28,11 @@
 
 .sidebar li:hover {
   color: #e50914;
+}
+
+.content h1,
+p {
+  color: white;
 }
 
 .main-page {
@@ -69,12 +74,18 @@ body {
   border-radius: 1rem;
 }
 
-.divider {
+.content {
+  padding: 10px;
+}
+
+.vertical-divider {
+  width: 1px;
+  background-color: #333;
+  align-self: stretch;
+}
+
+.sidebar-divider {
   border: none;
   border-top: 1px solid #333;
   margin: 15px 0;
-}
-
-.content {
-  padding: 10px;
 }

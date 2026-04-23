@@ -3,7 +3,7 @@ function Sidebar() {
         <div className="sidebar">
             <h2 className="logo">MoonMovieTv</h2>
 
-            <hr className="divider" />
+            <hr className="sidebar-divider" />
 
             <nav>
                 <ul>
