@@ -2,6 +2,9 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <h2 className="logo">MoonMovieTv</h2>
+
+            <hr className="divider" />
+
             <nav>
                 <ul>
                     <li>Home</li>

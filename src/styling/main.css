@@ -6,7 +6,7 @@
 
 .sidebar {
   width: 220px;
-  background-color: #111;
+  background-color: rgb(25, 25, 25);
   color: white;
   padding: 20px;
   border-radius: 1rem;
@@ -19,7 +19,7 @@
 .sidebar ul {
   list-style: none;
   padding: 0;
-}
+} 
 
 .sidebar li {
   margin: 10px 0;
@@ -38,4 +38,43 @@
 
 body {
   background-color: rgb(25, 25, 25);
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.search {
+  background-color: #222;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: white;
+  width: 250px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile img {
+  border-radius: 1rem;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 15px 0;
+}
+
+.content {
+  padding: 10px;
 }

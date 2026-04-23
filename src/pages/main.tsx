@@ -1,23 +1,22 @@
 import '../styling/main.css'
 import Sidebar from "./sidebar";
-
-
+import Topbar from "./topbar";
 
 function Main() {
   return (
     <div className="layout">
-        <Sidebar /> 
+      <Sidebar /> 
+
       <div className="main-page">
-        <h1>Dit is het begin</h1>
-        <p>Welkom op je mijn school dashboard</p>
+        <Topbar />
+
+        <div className="content">
+          <h1>Dit is het begin</h1>
+          <p>Welkom op je mijn school dashboard</p>
+        </div>
       </div>
-
-
-
-
-
     </div>
   )
 }
 
-export default Main 
+export default Main;
