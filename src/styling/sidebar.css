@@ -1,0 +1,60 @@
+.sidebar {
+  width: 220px;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  padding: 20px; 
+  border-radius: 1rem;
+}
+
+.sidebar .logo {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 35px;
+  height: 35px;
+  background-color: #e50914;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+}
+
+.logo-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  line-height: 1.2;
+}
+
+.logo-sub {
+  font-size: 11px;
+  color: #888;
+  font-weight: 400;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  color: #e50914;
+}
+
+.sidebar-divider {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 15px 0;
+}

@@ -7,7 +7,7 @@ function Main() {
     <div className="layout">
       <Sidebar />
       <div className="vertical-divider" /> 
-
+ 
       <div className="main-page">
         <Topbar />
 
