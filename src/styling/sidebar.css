@@ -10,20 +10,28 @@
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 10px; 
 }
 
 .logo-icon {
   width: 35px;
   height: 35px;
-  background-color: #e50914;
+  background-color: white;  
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 18px;
   font-weight: 800;
-  color: white;
+  color: black;  
+}
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(40, 40, 40); 
+  border-radius: 1rem;
+  padding: 8px 12px;
 }
 
 .logo-text {
@@ -50,11 +58,8 @@
 }
 
 .sidebar li:hover {
-  color: #e50914;
+  color: #3cf803;
 }
-
-.sidebar-divider {
-  border: none;
-  border-top: 1px solid #333;
-  margin: 15px 0;
+.nav-bottom {
+    margin-top: 5rem;
 }
