@@ -4,11 +4,6 @@
   font-family: Arial, sans-serif;
 }
 
-.content h1,
-p {
-  color: white;
-}
-
 .main-page {
   flex: 1;
   padding: 20px;
@@ -17,6 +12,7 @@ p {
 
 body {
   background-color: rgb(25, 25, 25);
+  margin: 0;
 }
 
 .topbar {
@@ -48,52 +44,42 @@ body {
   border-radius: 1rem;
 }
 
-.content {
-  padding: 10px;
-}
-
 .vertical-divider {
   width: 1px;
   background-color: #333;
   align-self: stretch;
 }
 
-.sidebar-divider {
-  border: none;
-  border-top: 1px solid #333;
-  margin: 15px 0;
+
+.gridContainer {
+  padding: 10px 0;
 }
 
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);   
+  gap: 1.5rem;
+}
+
+.card1, .card2, .card3, .card4, .card5,
+.card6, .card7, .card8, .card9, .card10 {
+  background-color: rgb(61, 14, 14);
+  border-radius: 1rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.8rem;
+}
 
 .card1 {
-  background-color: rgb(61, 14, 14);
-  padding: 2rem;
-  border-radius: 1rem;
-  width: 5rem;
-  height: 6rem;
+  height: 10rem;
+  grid-column: 1 / -1;    
+  font-size: 2.5rem;
 }
 
-
-.card2 {
-  background-color: rgb(61, 14, 14);
-  padding: 2rem;
-  border-radius: 1rem;
-  width: 5rem;
-  height: 6rem;
-}
-
-.card3 {
-  background-color: rgb(61, 14, 14);
-  padding: 2rem;
-  border-radius: 1rem;
-  width: 5rem;
-  height: 6rem;
-}
-
-.card4 {
-  background-color: rgb(61, 14, 14);
-  padding: 2rem;
-  border-radius: 1rem;
-  width: 5rem;
-  height: 6rem;
-}
+.card2, .card3, .card4, .card5,
+.card6, .card7, .card8, .card9, .card10 {
+  padding: 1rem;
+} 

@@ -1,4 +1,4 @@
-import '../styling/main.css'
+import '../styling/main.css';
 import Sidebar from "./sidebar";
 import Topbar from "./topbar";
 
@@ -53,19 +53,12 @@ function Main() {
               <div className="card10">
                 <h1>10</h1>
               </div>
-
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Main;
-
-
-
-
-
-
