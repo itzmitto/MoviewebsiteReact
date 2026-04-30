@@ -57,7 +57,7 @@ body {
 
 .cardsContainer {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);   
+  grid-template-columns: repeat(5, 1fr);
   gap: 1.5rem;
 }
 
@@ -72,9 +72,13 @@ body {
 }
 
 .card1 {
-  width: 20rem;
-  height: 25rem;
-  grid-column: span 1; /* of bijv. span 2 als je meer ruimte wil */
+  grid-column: 1 / -1; 
+  height: 50rem;
+  background-color: rgb(61, 14, 14);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card2, .card3, .card4, .card5,
