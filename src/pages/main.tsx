@@ -15,7 +15,7 @@ function Main() {
 
             <div className="cardsContainer">
               <div className="card1">
-                <h1>1</h1>
+                <h1>dit is de main movie aan het begin van de website nog met MongoDB later connecten en skeleton toevoegen doe ik aan het einde pas wel</h1>
               </div>
 
               <div className="card2">
