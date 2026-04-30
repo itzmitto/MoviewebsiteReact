@@ -72,9 +72,9 @@ body {
 }
 
 .card1 {
-  height: 10rem;
   width: 20rem;
-  grid-column: 1 / -1;    
+  height: 25rem;
+  grid-column: span 1; /* of bijv. span 2 als je meer ruimte wil */
 }
 
 .card2, .card3, .card4, .card5,
