@@ -12,9 +12,6 @@ function Main() {
         <Topbar />
         <div className="rooster-page">
           <div className="gridContainer">
-            <div className="titleBlock">
-              <h1>???</h1>
-            </div>
 
             <div className="cardsContainer">
               <div className="card1">
@@ -36,12 +33,31 @@ function Main() {
               <div className="card5">
                 <h1>5</h1>
               </div>
+
+              <div className="card6">
+                <h1>6</h1>
+              </div>
+
+              <div className="card7">
+                <h1>7</h1>
+              </div>
+
+              <div className="card8">
+                <h1>8</h1>
+              </div>
+
+              <div className="card9">
+                <h1>9</h1>
+              </div>
+
+              <div className="card10">
+                <h1>10</h1>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
-
-
     </div>
   )
 }

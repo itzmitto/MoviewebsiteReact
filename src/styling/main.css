@@ -65,7 +65,32 @@ body {
 }
 
 
-.card5{
+.card1 {
+  background-color: rgb(61, 14, 14);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 5rem;
+  height: 6rem;
+}
+
+
+.card2 {
+  background-color: rgb(61, 14, 14);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 5rem;
+  height: 6rem;
+}
+
+.card3 {
+  background-color: rgb(61, 14, 14);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 5rem;
+  height: 6rem;
+}
+
+.card4 {
   background-color: rgb(61, 14, 14);
   padding: 2rem;
   border-radius: 1rem;
