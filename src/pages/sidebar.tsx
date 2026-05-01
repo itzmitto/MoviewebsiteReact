@@ -10,7 +10,7 @@ function Sidebar() {
                         <div className="logo-text">MoonMovieTv</div>
                         <div className="logo-sub">Platform</div>
                     </div>
-                </div>
+                </div> 
             </div>
 
             <nav>
