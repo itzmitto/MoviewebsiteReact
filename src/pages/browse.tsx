@@ -1,7 +1,7 @@
 import '../styling/browse.css'
 
 function Browse() {
-    return (
+    return (  
         <>
             <div className="Browse">
                 <h1>dit is de browser pagina</h1>
