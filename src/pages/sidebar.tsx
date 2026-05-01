@@ -16,11 +16,11 @@ function Sidebar() {
             <nav>
                 <ul>
                     <li>Home</li>
-                    <li>Populaire films</li>
-                    <li>Genres</li>
-                    <li>Trending</li>
-                    <li>Playlist</li>
+                    <li>Browse Movies</li>
+                    <li>Random</li>
+                    <li>Schedule</li>
                     <li>Favorieten</li>
+                    <li>Playlist</li>
                 </ul>
                 <ul className="nav-bottom">
                     <li>History</li>
