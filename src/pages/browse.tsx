@@ -1,4 +1,4 @@
-import '../styling/browse.css'
+import '../styling/browse.css' 
 
 function Browse() {
     return (

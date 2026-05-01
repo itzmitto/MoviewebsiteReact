@@ -1,4 +1,5 @@
 import '../styling/sidebar.css'
+import { Link } from 'react-router-dom'  // ← toevoegen
 
 function Sidebar() {
     return (
@@ -16,7 +17,7 @@ function Sidebar() {
             <nav>
                 <ul>
                     <li>Home</li>
-                    <li>Browse Movies</li>
+                    <li><Link to="/browse">Browse Movies</Link></li> 
                     <li>Random</li>
                     <li>Schedule</li>
                     <li>Favorieten</li>
