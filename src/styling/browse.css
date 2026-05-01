@@ -1,0 +1,9 @@
+body {
+    background-color: lightblue;
+    
+}
+
+table,th,tr,td {
+    width: 100% ;
+    border: 1px solid black;
+}
