@@ -18,7 +18,7 @@ function Sidebar() {
                 <ul>
                     <li>Home</li>
                     <li><Link to="/browse">Browse Movies</Link></li> 
-                    <li>Random</li> 
+                    <li>Random</li>  
                     <li>Schedule</li>
                     <li>Favorieten</li>
                     <li>Playlist</li>
