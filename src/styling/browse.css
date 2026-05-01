@@ -3,7 +3,7 @@ body {
       
 } 
 
-table,th,tr,td {
+.Browse {
     width: 100% ;
     border: 1px solid black;
 }
