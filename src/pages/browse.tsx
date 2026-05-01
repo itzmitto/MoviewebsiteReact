@@ -1,5 +1,5 @@
 import '../styling/browse.css'
-
+ 
 function Browse() {     
     return (  
         <>
