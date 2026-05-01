@@ -1,6 +1,6 @@
 import '../styling/browse.css'
 
-function Browse() { 
+function Browse() {  
     return (  
         <>
             <div className="Browse">
