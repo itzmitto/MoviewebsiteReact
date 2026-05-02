@@ -1,5 +1,5 @@
-import '../styling/sidebar.css'    
-import { Link } from 'react-router-dom'  // ← toevoegen
+import '../styling/sidebar.css'     
+import { Link } from 'react-router-dom'  
 
 function Sidebar() {
     return (
