@@ -1,6 +1,7 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom' 
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import MainPage from './pages/main'
-import BrowsePage from './pages/browse'  
+import BrowsePage from './pages/browse'
+import SettingsPage from './pages/settings'
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/browse" element={<BrowsePage />} />
+        <Route path="/settings" element={<SettingsPage />} />
       </Routes>
     </BrowserRouter>
   )
