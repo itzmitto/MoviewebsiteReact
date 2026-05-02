@@ -1,12 +1,9 @@
-import '../styling/settings.css'
-import { useState } from "react";
+import '../styling/settings.css';
 
-function Settings()
-
-return (
-    <h1>hallo </h1>
+function Settings() {
+    return (
+        <h1>Hallo</h1>
+    );
 }
-
-
 
 export default Settings;
