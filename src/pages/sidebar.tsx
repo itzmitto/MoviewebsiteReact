@@ -24,7 +24,7 @@ function Sidebar() {
                     <li>Playlist</li>
                 </ul>
                 <ul className="nav-bottom">
-                    <li>History</li>
+                    <li><Link to="/history">history</Link></li> 
                     <li><Link to="/settings">settings</Link></li> 
                 </ul>
             </nav>
