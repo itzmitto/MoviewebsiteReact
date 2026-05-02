@@ -25,7 +25,7 @@ function Sidebar() {
                 </ul>
                 <ul className="nav-bottom">
                     <li>History</li>
-                    <li>Settings</li>
+                    <li><Link to="/settings">settings</Link></li> 
                 </ul>
             </nav>
         </div>
