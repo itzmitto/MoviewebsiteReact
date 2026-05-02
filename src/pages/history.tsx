@@ -1,8 +1,8 @@
-import '../styling/settings.css';
+import '../styling/history.css';
 import Sidebar from "./sidebar";
 import Topbar from "./topbar";
 
-function Settings() {
+function History() {
     return (
         <div className="layout">
             <Sidebar />
@@ -12,12 +12,12 @@ function Settings() {
                 <Topbar />
 
                 <div className="rooster-page">
-                    <h1>settings</h1>
-                    <p>de settings pagina  </p>
+                    <h1>Watch history</h1>
+                    <p>hier komen dan alle movies die je hebt bekeken in een rij te staan </p>
                 </div>
             </div>
         </div>
     );
 }
 
-export default Settings;
+export default History;
