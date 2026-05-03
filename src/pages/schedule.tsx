@@ -2,7 +2,7 @@ import '../styling/schedule.css';
 import Sidebar from "./sidebar";
 import Topbar from "./topbar";
 
-function schedule() {
+function Schedule() {
     return (
         <div className="layout">
             <Sidebar /> 
@@ -20,4 +20,4 @@ function schedule() {
     );
 }
 
-export default schedule;
+export default Schedule;
