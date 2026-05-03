@@ -4,7 +4,7 @@ import Topbar from "./topbar";
 
 function Main() {
   return (
-    <div className="layout">
+    <div className="layout"> 
       <Sidebar />
       <div className="vertical-divider" />
 

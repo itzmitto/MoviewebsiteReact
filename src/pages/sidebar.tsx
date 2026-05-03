@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Sidebar() {
     return (
         <div className="sidebar">
-            <div className="logo">
+            <div className="logo"> 
                 <div className="logo-wrapper">
                     <div className="logo-icon">M</div>
                     <div>
@@ -15,7 +15,7 @@ function Sidebar() {
             </div>
 
             <nav>
-                <ul>
+                <ul> 
                     <li>Home</li>
                     <li><Link to="/browse">Browse Movies</Link></li> 
                     <li>Random</li>  
