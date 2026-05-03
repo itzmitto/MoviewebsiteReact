@@ -18,8 +18,8 @@ function Sidebar() {
                 <ul> 
                     <li>Home</li>
                     <li><Link to="/browse">Browse Movies</Link></li> 
-                    <li>Random</li>  
-                    <li>Schedule</li>
+                    <li><Link to="/random">Random</Link></li>  
+                    <li><Link to="/schedule">Schedule</Link></li>                     
                     <li>Favorieten</li>
                     <li>Playlist</li>
                 </ul>

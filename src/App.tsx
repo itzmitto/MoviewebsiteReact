@@ -4,7 +4,7 @@ import BrowsePage from './pages/browse'
 import SettingsPage from './pages/settings'
 import HistoryPage from './pages/history'
 import SchedulePage from './pages/schedule'
-
+import RandomPage from './pages/random'
 
 import './App.css'
 
@@ -17,6 +17,7 @@ function App() {
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/history" element={<HistoryPage />} />
         <Route path="/schedule" element={<SchedulePage />} />
+        <Route path="/random" element={<RandomPage />} />
       </Routes>
     </BrowserRouter>
   )

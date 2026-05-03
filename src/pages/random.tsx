@@ -1,23 +1,23 @@
-import '../styling/schedule.css'; 
+import '../styling/random.css'; 
 import Sidebar from "./sidebar";
 import Topbar from "./topbar";
 
-function Schedule() {
+function Random() {
     return (
         <div className="layout">
-            <Sidebar />  
+            <Sidebar />   
             <div className="vertical-divider" />
 
             <div className="main-page">
                 <Topbar />
 
                 <div className="rooster-page">
-                    <h1>schedule pagina</h1>
-                    <p>de schedule pagina  </p>
+                    <h1>randomm painga</h1>
+                    <p>hier dan met de database mongodB een random movie dat er in het scherm komt in een card ofzo later bedenknen </p>
                 </div>
             </div>
         </div>
     );
 }
 
-export default Schedule;
+export default Random;
