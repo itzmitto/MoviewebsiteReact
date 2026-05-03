@@ -12,7 +12,7 @@ function Browse() {
     const [season, setSeason] = useState("");
     const [airingStatus, setAiringStatus] = useState("");
     const [tag, setTag] = useState("");
-    const [country, setCountry] = useState("");
+    const [country, setCountry] = useState(""); 
     const [source, setSource] = useState("");
 
     return (
