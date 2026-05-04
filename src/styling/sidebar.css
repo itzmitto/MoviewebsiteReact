@@ -1,23 +1,18 @@
 .sidebar {
   width: 220px;
-  background-color: rgb(25, 25, 25);
-  color: white;
-  padding: 20px;
-  border-radius: 1rem;
-  position:sticky;
-}
-
-/* .sidebar {
-  width: 220px;
+  min-width: 220px;           
   background-color: rgb(25, 25, 25);
   color: white;
   padding: 20px;
   border-radius: 1rem;
   position: sticky;
-  top: 20px; 
-  height: fit-content; 
-} */
- 
+  top: 20px;
+  align-self: flex-start;
+  min-height: 500px;          
+  height: fit-content;
+  flex-shrink: 0;
+}
+
 .sidebar a {
   color: white;
   text-decoration: none;

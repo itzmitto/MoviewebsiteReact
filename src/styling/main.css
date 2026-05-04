@@ -1,6 +1,6 @@
 .layout {    
   display: flex; 
-  height: 100vh;
+  min-height: 100vh;
   font-family: Arial, sans-serif;
 }
 
@@ -58,10 +58,6 @@ body {
   padding-bottom: 10px;
 }
 
-.cardsContainer::-webkit-scrollbar {
-  display: none;
-}
-
 .card1 {
   width: 100%; 
   height: 50rem;
@@ -77,7 +73,7 @@ body {
   flex: 0 0 auto; 
   width: 200px;  
   height: 300px; 
-  background-color: #1a1a1a; 
+  background-color: #1a5009; 
   border-radius: 1rem;
   padding: 1rem;
   display: flex;
