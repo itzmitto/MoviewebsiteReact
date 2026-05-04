@@ -8,6 +8,7 @@
   flex: 1;
   padding: 20px;
   background-color: rgb(25, 25, 25);
+  min-height: 300vh;
 }
 
 body {
@@ -50,38 +51,33 @@ body {
   align-self: stretch;
 }
 
-/* Container voor alles onder de grote kaart */
 .cardsContainer {
-  display: flex; /* Gebruik flexbox in plaats van grid */
+  display: flex; 
   gap: 1.5rem;
-  overflow-x: auto; /* Zorgt ervoor dat je opzij kunt scrollen als ze niet passen */
+  overflow-x: auto; 
   padding-bottom: 10px;
-  scrollbar-width: none; /* Verbergt scrollbar in Firefox */
 }
 
-/* Verberg scrollbar voor Chrome/Safari */
 .cardsContainer::-webkit-scrollbar {
   display: none;
 }
 
-/* De grote kaart (Card 1) moet buiten de flex-rij blijven of apart gestyled worden */
 .card1 {
-  width: 100%; /* Zorg dat hij de volle breedte pakt */
+  width: 100%; 
   height: 50rem;
   background-color: rgb(61, 14, 14);
   border-radius: 1rem;
-  margin-bottom: 2rem; /* Ruimte tussen grote film en de lijst */
+  margin-bottom: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* De kleine kaartjes (Card 2 t/m 8) */
 .card2, .card3, .card4, .card5, .card6, .card7, .card8 {
-  flex: 0 0 auto; /* Belangrijk: dit voorkomt dat de kaartjes krimpen */
-  width: 200px;  /* Geef ze een vaste breedte zoals in je screenshot */
-  height: 300px; /* Maak ze wat hoger (portrait mode) voor die movie-look */
-  background-color: #1a1a1a; /* Donkere kleur uit je screenshot */
+  flex: 0 0 auto; 
+  width: 200px;  
+  height: 300px; 
+  background-color: #1a1a1a; 
   border-radius: 1rem;
   padding: 1rem;
   display: flex;
