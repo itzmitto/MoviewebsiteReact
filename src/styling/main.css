@@ -17,7 +17,7 @@ body {
 
 .topbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
   background-color: #111;
   padding: 15px 20px;
@@ -50,38 +50,41 @@ body {
   align-self: stretch;
 }
 
-
-.gridContainer {
-  padding: 10px 0;
-}
-
+/* Container voor alles onder de grote kaart */
 .cardsContainer {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex; /* Gebruik flexbox in plaats van grid */
   gap: 1.5rem;
+  overflow-x: auto; /* Zorgt ervoor dat je opzij kunt scrollen als ze niet passen */
+  padding-bottom: 10px;
+  scrollbar-width: none; /* Verbergt scrollbar in Firefox */
 }
 
-.card1, .card2, .card3, .card4, .card5,
-.card6, .card7, .card8, .card9, .card10 {
-  background-color: rgb(61, 14, 14);
-  border-radius: 1rem;
-  height: 6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Verberg scrollbar voor Chrome/Safari */
+.cardsContainer::-webkit-scrollbar {
+  display: none;
 }
 
+/* De grote kaart (Card 1) moet buiten de flex-rij blijven of apart gestyled worden */
 .card1 {
-  grid-column: 1 / -1; 
+  width: 100%; /* Zorg dat hij de volle breedte pakt */
   height: 50rem;
   background-color: rgb(61, 14, 14);
   border-radius: 1rem;
+  margin-bottom: 2rem; /* Ruimte tussen grote film en de lijst */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.card2, .card3, .card4, .card5,
-.card6, .card7, .card8, .card9, .card10 {
-  padding: 2rem;
-} 
+/* De kleine kaartjes (Card 2 t/m 8) */
+.card2, .card3, .card4, .card5, .card6, .card7, .card8 {
+  flex: 0 0 auto; /* Belangrijk: dit voorkomt dat de kaartjes krimpen */
+  width: 200px;  /* Geef ze een vaste breedte zoals in je screenshot */
+  height: 300px; /* Maak ze wat hoger (portrait mode) voor die movie-look */
+  background-color: #1a1a1a; /* Donkere kleur uit je screenshot */
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
