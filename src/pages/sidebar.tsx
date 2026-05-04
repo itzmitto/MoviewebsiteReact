@@ -16,7 +16,7 @@ function Sidebar() {
 
             <nav>
                 <ul> 
-                    <li><Link to="/main">Home</Link></li> 
+                    <li><Link to="/">Home</Link></li> 
                     <li><Link to="/browse">Browse Movies</Link></li> 
                     <li><Link to="/random">Random</Link></li>  
                     <li><Link to="/schedule">Schedule</Link></li>                     
