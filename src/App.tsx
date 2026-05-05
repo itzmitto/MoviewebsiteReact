@@ -6,7 +6,7 @@ import HistoryPage from './pages/history'
 import SchedulePage from './pages/schedule'
 import RandomPage from './pages/random'
 import PlaylistPage from './pages/playlist'
-
+import FavorietenPage from './pages/Favorieten'
 import './App.css'
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Route path="/schedule" element={<SchedulePage />} />
         <Route path="/random" element={<RandomPage />} />
         <Route path="/playlist" element={<PlaylistPage />} />
-
+        <Route path="/Favorieten" element={<FavorietenPage />} />
       </Routes>
     </BrowserRouter>
   )

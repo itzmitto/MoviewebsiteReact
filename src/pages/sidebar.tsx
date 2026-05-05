@@ -20,7 +20,7 @@ function Sidebar() {
                     <li><Link to="/browse">Browse Movies</Link></li> 
                     <li><Link to="/random">Random</Link></li>  
                     <li><Link to="/schedule">Schedule</Link></li>                     
-                    <li>Favorieten</li>
+                     <li><Link to="/Favorieten">Favorieten</Link></li> 
                     <li><Link to="/playlist">Playlist</Link></li>                     
                 </ul>
                 <ul className="nav-bottom">
