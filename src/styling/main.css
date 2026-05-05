@@ -274,8 +274,8 @@ body {
 
 .comment-time {
   margin-left: auto;
-  color: #666 !important;
-  font-size: 11px !important;
+  color: #666;
+  font-size: 12px;
 }
 
 .schedule-header {
@@ -335,7 +335,12 @@ body {
   gap: 10px;
   padding: 8px 6px;
   border-radius: 4px;
-  transition: background 0.15s;
+}
+
+.estimated-schedule {
+  padding: 1rem;
+  height: 49rem;
+  background-color: grey;
 }
 
 .schedule-row:hover {
