@@ -1,6 +1,6 @@
 import '../styling/main.css';
 import Sidebar from "./sidebar";
-import Topbar from "./topbar"; 
+import Topbar from "./topbar";
 
 function Main() {
   return (
@@ -12,10 +12,14 @@ function Main() {
         <Topbar />
         <div className="rooster-page">
 
+          {/* hier is 1ste rij */}
+
           <div className="gridContainer">
             <div className="card1">
               <h1>Hoofdfilm</h1>
             </div>
+
+            {/* hier is de 2de rij */}
 
             <h2 style={{ color: 'white', marginBottom: '10px' }}>Trending Now</h2>
 
@@ -29,13 +33,20 @@ function Main() {
               <div className="card8"><h1>en de andren</h1></div>
             </div>
           </div>
+          {/* hier is de 3de rij */}
+          <div className="anime-section">
+            <div className="anime-tabs">
+              <button className="anime-tab active">This Season</button>
+              <button className="anime-tab">All Time Popular</button>
+              <button className="anime-tab">Top Rated</button>
+            </div>
 
-        </div>
-      </div>
-    </div>
+           
+
+
+
   );
 }
 
 export default Main;
-
 
