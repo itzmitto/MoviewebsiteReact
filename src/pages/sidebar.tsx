@@ -21,7 +21,7 @@ function Sidebar() {
                     <li><Link to="/random">Random</Link></li>  
                     <li><Link to="/schedule">Schedule</Link></li>                     
                     <li>Favorieten</li>
-                    <li>Playlist</li>
+                    <li><Link to="/playlist">Playlist</Link></li>                     
                 </ul>
                 <ul className="nav-bottom">
                     <li><Link to="/history">history</Link></li> 
