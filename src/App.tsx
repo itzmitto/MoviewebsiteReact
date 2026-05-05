@@ -6,7 +6,7 @@ import HistoryPage from './pages/history'
 import SchedulePage from './pages/schedule'
 import RandomPage from './pages/random'
 import PlaylistPage from './pages/playlist'
-import FavorietenPage from './pages/Favorieten'
+import FavorietenPage from './pages/favorieten'
 import './App.css'
 
 function App() {
