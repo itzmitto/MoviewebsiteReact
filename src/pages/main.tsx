@@ -40,7 +40,39 @@ function Main() {
               <button className="anime-tab">All Time Popular</button>
               <button className="anime-tab">Top Rated</button>
             </div>
+ <div className="anime-browse-layout">
+              <div className="anime-grid">
+                {[...Array(14)].map((_, i) => (
+                  <div className="anime-card" key={i}>
+                    <div className="anime-thumb">
+                      <span className="anime-rating">⭐ 8.{i % 9}</span>
+                    </div>
+                    <div className="anime-meta">
+                      <span className="anime-type">TV Show</span>
+                      <span className="anime-year">2026</span>
+                    </div>
+                    <div className="anime-dot-title">
+                      <span className="anime-dot"></span>
+                      <span className="anime-title">Anime Titel {i + 1}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
 
+              <div className="anime-sidebar-right">
+                <div className="recent-comments">
+                  <h3>Recent Comments</h3>
+                  {[
+                    { show: "Naruto", comment: "lorem ", user: "light_", time: "27m ago" },
+                    { show: "Witch Hat Atelier",comment: "lorem", user: "zorosenpai", time: "33m ago" },
+                    { show: "Mob Psycho 100 II",  comment: "lorem", user: "aquinas", time: "33m ago" },
+                    { show: "Kuroko's Basketball",comment: "lorem", user: "shayskiehere1", time: "34m ago" },
+                  ].map((c, i) => (
+                    <div className="comment-card" key={i}>
+                      <div className="comment-header">
+                        <span className="comment-show">{c.show}</span>
+                     
+    </div>
            
 
 
