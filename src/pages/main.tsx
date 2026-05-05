@@ -40,7 +40,7 @@ function Main() {
               <button className="anime-tab">All Time Popular</button>
               <button className="anime-tab">Top Rated</button>
             </div>
- <div className="anime-browse-layout">
+            <div className="anime-browse-layout">
               <div className="anime-grid">
                 {[...Array(14)].map((_, i) => (
                   <div className="anime-card" key={i}>
@@ -64,9 +64,9 @@ function Main() {
                   <h3>Recent Comments</h3>
                   {[
                     { show: "Naruto", comment: "lorem ", user: "light_", time: "27m ago" },
-                    { show: "Witch Hat Atelier",comment: "lorem", user: "zorosenpai", time: "33m ago" },
-                    { show: "Mob Psycho 100 II",  comment: "lorem", user: "aquinas", time: "33m ago" },
-                    { show: "Kuroko's Basketball",comment: "lorem", user: "shayskiehere1", time: "34m ago" },
+                    { show: "Witch Hat Atelier", comment: "lorem", user: "zorosenpai", time: "33m ago" },
+                    { show: "Mob Psycho 100 II", comment: "lorem", user: "aquinas", time: "33m ago" },
+                    { show: "Kuroko's Basketball", comment: "lorem", user: "shayskiehere1", time: "34m ago" },
                   ].map((c, i) => (
                     <div className="comment-card" key={i}>
                       <div className="comment-header">
@@ -86,7 +86,8 @@ function Main() {
                 <div className="estimated-schedule">
                   <div className="schedule-header">
                     <h3>Estimated Schedule</h3>
-                    <span>→</span>
+                    <h4>nog random dinge toevoegen met hoe en wanneer er nor random dingen toeveogen enz
+                    </h4>
                   </div>
                   <div className="schedule-days">
 
@@ -100,7 +101,7 @@ function Main() {
         </div>
       </div>
     </div>
-           
+
 
 
 

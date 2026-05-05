@@ -343,6 +343,10 @@ body {
   background-color: grey;
 }
 
+.estimated-schedule h4 {
+  color: green;
+}
+
 .schedule-row:hover {
   background: #1a1a1a;
 }
