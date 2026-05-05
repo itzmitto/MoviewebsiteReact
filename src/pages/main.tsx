@@ -71,7 +71,34 @@ function Main() {
                     <div className="comment-card" key={i}>
                       <div className="comment-header">
                         <span className="comment-show">{c.show}</span>
-                     
+                        <span className="comment-icons">💬0 👍0</span>
+                      </div>
+                      <p className="comment-text">{c.comment}</p>
+                      <div className="comment-user">
+                        <div className="comment-avatar" />
+                        <span>{c.user}</span>
+                        <span className="comment-time">{c.time}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="estimated-schedule">
+                  <div className="schedule-header">
+                    <h3>Estimated Schedule</h3>
+                    <span>→</span>
+                  </div>
+                  <div className="schedule-days">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button className="view-more-btn">View more</button>
+          </div>
+        </div>
+      </div>
     </div>
            
 
