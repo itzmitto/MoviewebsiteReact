@@ -1,4 +1,4 @@
-import '../styling/browse.css'    
+import '../styling/browse.css'     
 import { useState } from "react";
 import Sidebar from "./sidebar";
 import Topbar from "./topbar";
