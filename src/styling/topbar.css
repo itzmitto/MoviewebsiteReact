@@ -1,0 +1,18 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.search {
+    background-color: #222;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+    width: clamp(200px, 35vw, 340px);
+}

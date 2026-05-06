@@ -11,7 +11,7 @@ function Schedule() {
             <div className="main-page">
                 <Topbar />
 
-                <div className="rooster-page">
+                <div className="schedule-page">
                     <h1>schedule pagina</h1>
                     <p>de schedule pagina  </p>
                 </div>

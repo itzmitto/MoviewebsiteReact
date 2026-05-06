@@ -1,13 +1,14 @@
-.sidebar { 
-width: clamp(200px, 18vw, 260px);
-  min-width: clamp(180px, 16vw, 220px);         
+.sidebar {
+  width: clamp(200px, 18vw, 260px);
+  min-width: clamp(180px, 16vw, 220px);
   background-color: rgb(25, 25, 25);
   color: white;
-padding: clamp(16px, 2vw, 24px);  border-radius: 1rem;
+  padding: clamp(16px, 2vw, 24px);
+  border-radius: 1rem;
   position: sticky;
   top: 20px;
   align-self: flex-start;
-  min-height: 1500px;          
+  min-height: 1500px;
   height: fit-content;
   flex-shrink: 0;
 }
@@ -47,7 +48,8 @@ padding: clamp(16px, 2vw, 24px);  border-radius: 1rem;
 }
 
 .logo-text {
-font-size: clamp(14px, 1.1vw, 15px);  font-weight: 600;
+  font-size: clamp(14px, 1.1vw, 15px);
+  font-weight: 600;
   color: white;
   line-height: 1.2;
 }
@@ -77,5 +79,5 @@ font-size: clamp(14px, 1.1vw, 15px);  font-weight: 600;
 }
 
 .sidebar a:hover {
-    color: grey; 
+  color: grey;
 }

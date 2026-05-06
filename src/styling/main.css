@@ -16,34 +16,6 @@ body {
   margin: 0;
 }
 
-.topbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #111;
-  padding: clamp(12px, 1.5vw, 18px) clamp(16px, 2vw, 24px);
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-.search {
-  background-color: #222;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 20px;
-  color: white;
-  width: clamp(200px, 35vw, 340px);
-}
-
-.profile {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.profile img {
-  border-radius: 1rem;
-}
 
 .vertical-divider {
   width: 1px;
@@ -85,14 +57,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-
-
-
-.anime-section {
-  margin-top: 60px;
-  padding: 0 20px;
 }
 
 .anime-tabs {
@@ -206,6 +170,14 @@ body {
   flex-direction: column;
   gap: 30px;
 }
+
+
+
+
+
+
+
+/* 
 
 .recent-comments h3,
 .estimated-schedule h3 {
@@ -329,6 +301,8 @@ body {
   gap: 2px;
 }
 
+
+
 .schedule-row {
   display: flex;
   align-items: center;
@@ -390,4 +364,4 @@ body {
 .view-more-btn:hover {
   background: #1a1a1a;
   color: white;
-}
+} */
