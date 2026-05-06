@@ -59,7 +59,7 @@ body {
 }
 
 .card1 {
-  width: 100%;
+  width: clamp(200px, 100%, 70rem);
   height: 50rem;
   background-color: rgb(61, 14, 14);
   border-radius: 1rem;

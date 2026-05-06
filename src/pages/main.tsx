@@ -8,7 +8,7 @@ function Main() {
       <Sidebar />
       <div className="vertical-divider" />
 
-      <div className="main-page">
+      <div className="main-page"> 
         <Topbar />
         <div className="rooster-page">
 
