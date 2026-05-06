@@ -1,4 +1,4 @@
-.layout {
+.layout {   
   display: flex;
   min-height: 100vh;
   font-family: Arial, sans-serif;
@@ -6,7 +6,7 @@
 
 .main-page {
   flex: 1;
-  padding: 20px;
+  padding: clamp(16px, 2.5vw, 32px);
   background-color: rgb(25, 25, 25);
   min-height: 300vh;
 }
@@ -21,7 +21,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #111;
-  padding: 15px 20px;
+  padding: clamp(12px, 1.5vw, 18px) clamp(16px, 2vw, 24px);
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -32,7 +32,7 @@ body {
   padding: 10px 15px;
   border-radius: 20px;
   color: white;
-  width: 250px;
+  width: clamp(200px, 35vw, 340px);
 }
 
 .profile {
@@ -53,14 +53,14 @@ body {
 
 .cardsContainer {
   display: flex;
-  gap: 1.5rem;
+  gap: clamp(12px, 1.8vw, 24px);
   overflow-x: auto;
   padding-bottom: 10px;
 }
 
 .card1 {
-  width: clamp(200px, 100%, 70rem);
-  height: 50rem;
+  width: clamp(280px, 48vw, 1100px);
+  height: clamp(380px, 55vw, 780px);
   background-color: rgb(61, 14, 14);
   border-radius: 1rem;
   margin-bottom: 2rem;
@@ -77,8 +77,8 @@ body {
 .card7,
 .card8 {
   flex: 0 0 auto;
-  width: 200px;
-  height: 300px;
+  width: clamp(160px, 22vw, 210px);
+  height: clamp(240px, 33vw, 320px);
   background-color: #1a5009;
   border-radius: 1rem;
   padding: 1rem;
