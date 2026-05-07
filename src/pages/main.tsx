@@ -1,7 +1,7 @@
-import '../styling/main.css';
+import '../styling/main.css'; 
 import Sidebar from "./sidebar";
 import Topbar from "./topbar";
-
+ 
 function Main() {
   return (
     <div className="layout">

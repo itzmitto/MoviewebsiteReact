@@ -90,7 +90,7 @@ function Browse() {
                                 <option value="">Any</option>
                                 <option value="winter">Winter</option>
                                 <option value="spring">Spring</option>
-                                <option value="summer">Summer</option>
+                                <option value="summer">Summer</option> 
                                 <option value="fall">Fall</option>
                             </select>
 
